@@ -110,12 +110,12 @@ html{
 <body>
         <div class="loginbox">
             <h1>Login Here</h1>
-            <form name="loginform" action="main.html" method="post" onsubmit="return validate_loginform()">
+            <form method="post">
                 <p>Username</p>
                 <input type="text" name= "username" placeholder="Enter Username" required/>
                 <p>Password</p>
                 <input type="Password" name="password" placeholder="Enter Password" required/>
-		    <a href="main.html"><input type="submit" name="submit" value="Login"/></a><br>
+		    <a href="main.html"><button onclick=validate_loginform()>Login</button></a><br>
                 <a href="forgetpassword.html">Forget your Password ?</a><br>
                 <a href="Register.html">Don't have account ?</a>
 
